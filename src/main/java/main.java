@@ -20,7 +20,7 @@ public class main {
 
 
 
-        log.info("En que idioma quieres la palabra? (Escribe las dos primeras letras del idioma)");
+        log.info("En que idioma quieres la palabra? (Escribe idioma: ca, es, en, it, ge)");
         Scanner input = new Scanner(System.in);
         idiom = input.nextLine();
         log.info("Escribe t1, t2, t3 o t4 para escoger la palabra");
