@@ -27,7 +27,7 @@ public class Test1 {
     public void idiomasVacios(){
         int idiomasLength = sing.idiomas.size();
         assertEquals(0, idiomasLength);
-        log.info("holahola");
+
     }
 
 
